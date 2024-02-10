@@ -29,9 +29,10 @@ You can run `./kda.sh --help` for additional guidance on how to utilize this too
 Kubernetes is very big and there are many requirements in it. so, If you have a suggestion that would make this better, please fork the repo and create a pull request. 
 
 1. Fork the Project
-2. Create your Tool Branch (git switch -C tools/AmazingTool)
-3. Commit your Changes (git commit -m 'Add some AmazingTool')
-4. Push to the Branch (git push origin tools/AmazingTool)
-5. Open a Pull Request
+2. Create your Tool Branch (`git switch -C tools/AmazingTool`)  <br/>
+   Or create your Feature Branch (`git switch -C feature/<tool>/AmazingFeatureFor<tool>`)
+4. Commit your Changes (`git commit -m 'Add some Amazing Tool OR Feature'`)
+5. Push to the Branch (`git push origin <your new branch>`) 
+6. Open a Pull Request
 
 You can also simply open an issue. Don't forget to give the project a star! Thanks again!
