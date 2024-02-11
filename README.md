@@ -19,12 +19,6 @@ Create a symbolic link for your script, enabling you to swiftly execute it with 
 
 These tools are developed using Bash scripting language.
 
-- **kda -> kubectl delete all** <br/> 
-In this tool we can delete all element of any objects <br/>
-kda.sh [object] -> pod, service, etc... <br/>
-For example `./kda.sh pod` deletes all pods <br/>
-You can run `./kda.sh --help` for additional guidance on how to utilize this tool effectively.
-
 ## contribute with us
 Kubernetes is very big and there are many requirements in it. so, If you have a suggestion that would make this better, please fork the repo and create a pull request. 
 
