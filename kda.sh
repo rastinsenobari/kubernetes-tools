@@ -49,4 +49,4 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 #run the command
-kubectl get "${object}" -n "${namespace}"| tail -n +2 | cut -f1 -d" " |xargs kubectl delete "$object"
+kubectl get "${object}" -n "${namespace}"| tail -n +2 | cut -f1 -d" " |xargs kubectl delete "$object" -n "${namespace}"
